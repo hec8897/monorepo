@@ -11,7 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "app": "yarn workspace @services/app",
     "ui": "yarn workspace @common/component",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
   },
   "license": "MIT",
   "dependencies": {
