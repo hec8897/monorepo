@@ -1,6 +1,6 @@
 import React from 'react';
 import { Flex, Title, Input, Button } from '@common/component';
-import { useInput } from 'hooks';
+import { useInput } from '@common/hooks';
 
 const Login = () => {
   const { value: IdValue, onChange: IdChange } = useInput('');
